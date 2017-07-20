@@ -1,0 +1,23 @@
+E:\SULSales VS 2013\SUL.SCM\bin\SUL.SCM.dll.config
+E:\SULSales VS 2013\SUL.SCM\bin\SUL.SCM.dll
+E:\SULSales VS 2013\SUL.SCM\bin\SUL.SCM.pdb
+E:\SULSales VS 2013\SUL.SCM\bin\SUL.Bll.dll
+E:\SULSales VS 2013\SUL.SCM\bin\SUL.Dal.dll
+E:\SULSales VS 2013\SUL.SCM\bin\SUL.Bll.pdb
+E:\SULSales VS 2013\SUL.SCM\bin\SUL.Dal.pdb
+E:\SULSales VS 2013\SUL.SCM\obj\Debug\SUL.SCM.csprojResolveAssemblyReference.cache
+E:\SULSales VS 2013\SUL.SCM\obj\Debug\SUL.SCM.dll.licenses
+E:\SULSales VS 2013\SUL.SCM\obj\Debug\SUL.SCM.dll
+E:\SULSales VS 2013\SUL.SCM\obj\Debug\SUL.SCM.pdb
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\bin\SUL.SCM.dll.config
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\bin\SUL.SCM.dll
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\bin\SUL.SCM.pdb
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\bin\PdfReport.dll
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\bin\SUL.Bll.dll
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\bin\SUL.Dal.dll
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\bin\SUL.Bll.pdb
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\bin\SUL.Dal.pdb
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\obj\Debug\SUL.SCM.csprojResolveAssemblyReference.cache
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\obj\Debug\SUL.SCM.dll.licenses
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\obj\Debug\SUL.SCM.dll
+E:\SULSales VS 2013_23052015\SULSales VS 2013\SUL.SCM\obj\Debug\SUL.SCM.pdb

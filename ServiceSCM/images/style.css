@@ -1,0 +1,271 @@
+/*
+Theme Name: Plankton
+Theme URI: http://www.planktonwebdesign.com
+Description: 2012 Theme
+Version: 2
+Author: Michael Story
+Author URI: http://www.planktonwebdesign.com
+
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+.alignright {
+  float: right;
+  margin-left: 1.7em;
+  margin-bottom: 1.7em;
+}
+.alignleft {
+  float: left;
+  margin-right: 1.7em;
+  margin-bottom: 1.7em;
+}
+.clear {
+  clear: both;
+}
+.half {
+  width: 48%;
+  margin-right: 4%;
+  float: left;
+}
+.third {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+}
+.centered-content {
+  float: none;
+  width: 88%;
+  margin: 0 auto;
+}
+.last {
+  margin-right: 0;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+.container.header {
+  margin-top: 3.4em;
+}
+
+
+.wpcf7-submit {
+  display: inline-block;
+  text-indent: -999em;
+  text-transform: capitalize;
+  width: 149px;
+  height: 29px;
+  background: url(images/sprite.png) no-repeat;
+  border-bottom: none !important;
+  clear: both;
+  padding-left: 0;
+  padding-right: 0;
+  clear: both;
+  cursor: pointer;
+  background-position: -5px -276px;
+  border: none;
+  position: relative;
+}
+.wpcf7-submit:hover {
+  background-position: -176px -276px;
+}
+
+.Vollmond {
+  font-family: '244VollmondALRegular', Helvetica;
+}
+.monospace {
+  font-family: "Monaco", Courier New, monospace;
+}
+
+.aviaslider {
+  height: 420px;
+  /*this changes the height of the image slider*/
+
+  width: 960px;
+  overflow: hidden;
+  position: relative;
+  background: #ffffff url(images/aviaslider/preload.gif) center center no-repeat;
+  box-shadow: 0px -5px 37px rgba(0, 0, 0, 0.2);
+  z-index: 7;
+  margin-bottom: 50px;
+}
+.page .aviaslider {
+  height: 380px;
+  /*this changes the height of the image slider*/
+
+  width: 610px;
+  overflow: hidden;
+  position: relative;
+  background: #f9f8f8 url(images/aviaslider/preload.gif) center center no-repeat;
+  box-shadow: none;
+  z-index: 7;
+  margin-bottom: 50px;
+  margin-top: 3.4em;
+}
+.page .aviaslider a:hover:before {
+  content: "";
+  background: url(images/sprite.png) no-repeat;
+  background-position: -383px -37px;
+  width: 80px;
+  height: 82px;
+  position: absolute;
+  top: 155px;
+  left: 43%;
+  z-index: 99;
+  opacity: 1;
+}
+.page .aviaslider a:hover:after {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 13px;
+  left: 23px;
+  border-radius: 4px;
+  width: 564px;
+  height: 335px;
+  z-index: 98;
+}
+.aviaslider li, .aviaslider .featured {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.js_active .aviaslider li, .js_active .aviaslider .featured {
+  display: none;
+}
+.aviaslider img, .aviaslider a img, .aviaslider a {
+  border: none;
+  text-decoration: none;
+}
+.slidecontrolls {
+  margin: 20px auto 0 auto;
+  position: relative;
+  float: left;
+  z-index: 4;
+}
+.page .slidecontrolls {
+  position: absolute;
+  top: 376px;
+  right: 29%;
+  z-index: 8;
+}
+.slidecontrolls a {
+  height: 20px;
+  width: 18px;
+  display: block;
+  cursor: pointer;
+  background: transparent url(images/aviaslider/controlls.gif) center bottom no-repeat;
+  float: left;
+  outline: none;
+  border-bottom: none !important;
+}
+.slidecontrolls a:hover, .slidecontrolls .active_item {
+  background: transparent url(images/aviaslider/controlls.gif) center top no-repeat;
+  border-bottom: none !important;
+}
+.feature_excerpt {
+  width: 610px;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 14px 15px;
+  font-size: 11.5px;
+  line-height: 1.5em;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+}
+.feature_excerpt strong {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 3px;
+}
+abbr, .wpcf7-response-output, .wpcf7-not-valid-tip {
+  color: red;
+}
+
+.wpcf7-not-valid-tip {
+  font-size: 0.8em;
+  float: left;
+  width: 100%;
+}
+.ajax-loader {
+  position: absolute;
+  top: 7px;
+  left: 158px;
+}
+
+#content {
+  height:420px;
+  background: #f9f8f8 url(../../Ewa%27s%20Web/images/content-bg.jpg) repeat-x;
+  color: #292929;
+  zoom: 1;
+  padding-bottom: 1.7em;
+}
+#content:before, #content:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+#content:after {
+  clear: both;
+}
+.main-content {
+  float: left;
+  width: 60%;
+  margin-right: 10%;
+}
+
+#featured-work {
+  position: absolute;
+  top: -11.9em;
+}
+#featured-work:after {
+  content: "";
+  background: url(images/aviaslider/slideshow-shadow-b.jpg);
+  width: 1050px;
+  height: 190px;
+  position: absolute;
+  top: 320px;
+  left: -47px;
+  z-index: 1;
+}
+#strengths {
+  float: left;
+  width: 100%;
+  color: white;
+  background: url(images/me.jpg);
+  height: 442px;
+  margin-top: 318px;
+  margin-bottom: 1.7em;
+}
+#strengths p {
+  font-size: 18px;
+  font-size: 1.8rem;
+  width: 558px;
+  margin-left: 57px;
+  margin-top: 59px;
+}
+#strengths h2 {
+  color: black;
+}
+.page header, .single header {
+  height: 10.2em;
+}
+.page #content, .single #content {
+  padding-top: 3.4em;
+}
+

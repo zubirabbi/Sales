@@ -1,0 +1,11 @@
+﻿.ReportDiv {border:1px solid black; width:100%; float:left; text-align:left; padding:2px; margin-left:5px; padding-left:10px;}
+.TableStyle { border-collapse: collapse } 
+.TitleStyle { font-family:Arial; font-size:15pt } 
+.SectionHeader {font-family: Arial; font-size:10pt }
+.DetailHeader {font-family: Arial; font-size:9pt; vertical-align:top; } 
+.DetailData  {font-family: Arial; font-size:9pt;  vertical-align:top; width:7in;height:0.35in;} 
+.ColumnHeaderStyle  {font-family: Arial; font-size:9pt; vertical-align:top;width:1in; text-align:right;} 
+.break{page-break-before: always; } 
+.notbreak{background-color:Gray;}
+.imagewrapper {width: 7in; text-align:left;}
+.imagewrapper img {max-width: 100%; height: auto;  width: auto; }

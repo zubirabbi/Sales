@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{84900A37-85A0-44A5-9BAC-44184363075F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SUL.Bll</RootNamespace>
+    <AssemblyName>SUL.Bll</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\SUL.SCM\bin\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfiguration.cs" />
+    <Compile Include="AppFunctionality.cs" />
+    <Compile Include="AppModule.cs" />
+    <Compile Include="AppPermission.cs" />
+    <Compile Include="Area.cs" />
+    <Compile Include="BankInformation.cs" />
+    <Compile Include="Base\AppConfigurationBase.cs" />
+    <Compile Include="Base\AppFunctionalityBase.cs" />
+    <Compile Include="Base\AppModuleBase.cs" />
+    <Compile Include="Base\AppPermissionBase.cs" />
+    <Compile Include="Base\AreaBase.cs" />
+    <Compile Include="Base\BankInformationBase.cs" />
+    <Compile Include="Base\BranchBase.cs" />
+    <Compile Include="Base\CalculationCampaignBase.cs" />
+    <Compile Include="Base\CampaignCategoryBase.cs" />
+    <Compile Include="Base\CampaignDetailsBase.cs" />
+    <Compile Include="Base\CampaignMasterBase.cs" />
+    <Compile Include="Base\CampaignOfferProductsBase.cs" />
+    <Compile Include="Base\CampaignProductsBase.cs" />
+    <Compile Include="Base\CompanyBase.cs" />
+    <Compile Include="Base\CountryBase.cs" />
+    <Compile Include="Base\CourierInformationBase.cs" />
+    <Compile Include="Base\CustomerComplainDetailsBase.cs" />
+    <Compile Include="Base\CustomerComplainMasterBase.cs" />
+    <Compile Include="Base\DataFilterSetupBase.cs" />
+    <Compile Include="Base\DealerCategoryBase.cs" />
+    <Compile Include="Base\DealerInformationBase.cs" />
+    <Compile Include="Base\DealerJournalDetailsBase.cs" />
+    <Compile Include="Base\DealerJournalMasterBase.cs" />
+    <Compile Include="Base\DealerLedgerBase.cs" />
+    <Compile Include="Base\DeliveryDetailsBase.cs" />
+    <Compile Include="Base\DeliveryMasterBase.cs" />
+    <Compile Include="Base\DepartmentBase.cs" />
+    <Compile Include="Base\DesignationBase.cs" />
+    <Compile Include="Base\EmployeeInformationBase.cs" />
+    <Compile Include="Base\IncentiveSetupBase.cs" />
+    <Compile Include="Base\IncentiveSetupDetailsBase.cs" />
+    <Compile Include="Base\InventorySetupBase.cs" />
+    <Compile Include="Base\InvoiceDetailsBase.cs" />
+    <Compile Include="Base\InvoiceMasterBase.cs" />
+    <Compile Include="Base\ItemDetailsBase.cs" />
+    <Compile Include="Base\ItemJournalBase.cs" />
+    <Compile Include="Base\ItemJournalDetailsBase.cs" />
+    <Compile Include="Base\ItemJournalMasterBase.cs" />
+    <Compile Include="Base\ItemLedgerBase.cs" />
+    <Compile Include="Base\ItemReturnDetailsBase.cs" />
+    <Compile Include="Base\ItemReturnMasterBase.cs" />
+    <Compile Include="Base\JournalDetailsBase.cs" />
+    <Compile Include="Base\JournalMasterBase.cs" />
+    <Compile Include="Base\LCAmendmentBase.cs" />
+    <Compile Include="Base\LCInformationBase.cs" />
+    <Compile Include="Base\ListTableBase.cs" />
+    <Compile Include="Base\PaymentBase.cs" />
+    <Compile Include="Base\PIDetailsBase.cs" />
+    <Compile Include="Base\PIMasterBase.cs" />
+    <Compile Include="Base\ProblemsBase.cs" />
+    <Compile Include="Base\ProductBase.cs" />
+    <Compile Include="Base\ProductCategoryBase.cs" />
+    <Compile Include="Base\ProductColorBase.cs" />
+    <Compile Include="Base\ProductMappingBase.cs" />
+    <Compile Include="Base\ProductUnitBase.cs" />
+    <Compile Include="Base\PurchaseOrderDetailsBase.cs" />
+    <Compile Include="Base\PurchaseOrderMasterBase.cs" />
+    <Compile Include="Base\ReceiverDetailsBase.cs" />
+    <Compile Include="Base\ReceiverMasterBase.cs" />
+    <Compile Include="Base\RegionBase.cs" />
+    <Compile Include="Base\RequisitionCampaignsBase.cs" />
+    <Compile Include="Base\RequisitionDetailsBase.cs" />
+    <Compile Include="Base\RequisitionMasterBase.cs" />
+    <Compile Include="Base\SalesIncentiveSetupBase.cs" />
+    <Compile Include="Base\ServiceBase.cs" />
+    <Compile Include="Base\ServiceCenterBase.cs" />
+    <Compile Include="Base\SetupChannelBase.cs" />
+    <Compile Include="Base\SpairPartsBase.cs" />
+    <Compile Include="Base\SPDeliveryDetailsBase.cs" />
+    <Compile Include="Base\SPDeliveryMasterBase.cs" />
+    <Compile Include="Base\SupplierBase.cs" />
+    <Compile Include="Base\SupplierLedgerBase.cs" />
+    <Compile Include="Base\UserLoginLogBase.cs" />
+    <Compile Include="Base\UserRoleBase.cs" />
+    <Compile Include="Base\UserRoleMappingBase.cs" />
+    <Compile Include="Base\UsersBase.cs" />
+    <Compile Include="Base\WareHouseBase.cs" />
+    <Compile Include="Base\WarehouseCategoryBase.cs" />
+    <Compile Include="Branch.cs" />
+    <Compile Include="CalculationCampaign.cs" />
+    <Compile Include="CampaignCategory.cs" />
+    <Compile Include="CampaignDetails.cs" />
+    <Compile Include="CampaignMaster.cs" />
+    <Compile Include="CampaignOfferProducts.cs" />
+    <Compile Include="CampaignProducts.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="CourierInformation.cs" />
+    <Compile Include="CustomerComplainDetails.cs" />
+    <Compile Include="CustomerComplainMaster.cs" />
+    <Compile Include="DataFilterSetup.cs" />
+    <Compile Include="DealerCategory.cs" />
+    <Compile Include="DealerInformation.cs" />
+    <Compile Include="DealerJournalDetails.cs" />
+    <Compile Include="DealerJournalMaster.cs" />
+    <Compile Include="DealerLedger.cs" />
+    <Compile Include="DeliveryDetails.cs" />
+    <Compile Include="DeliveryMaster.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="Designation.cs" />
+    <Compile Include="EmployeeInformation.cs" />
+    <Compile Include="IncentiveSetup.cs" />
+    <Compile Include="IncentiveSetupDetails.cs" />
+    <Compile Include="InventorySetup.cs" />
+    <Compile Include="InvoiceDetails.cs" />
+    <Compile Include="InvoiceMaster.cs" />
+    <Compile Include="ItemDetails.cs" />
+    <Compile Include="ItemJournal.cs" />
+    <Compile Include="ItemJournalDetails.cs" />
+    <Compile Include="ItemJournalMaster.cs" />
+    <Compile Include="ItemLedger.cs" />
+    <Compile Include="ItemReturnDetails.cs" />
+    <Compile Include="ItemReturnMaster.cs" />
+    <Compile Include="JournalDetails.cs" />
+    <Compile Include="JournalMaster.cs" />
+    <Compile Include="LCAmendment.cs" />
+    <Compile Include="LCInformation.cs" />
+    <Compile Include="ListTable.cs" />
+    <Compile Include="Payment.cs" />
+    <Compile Include="PIDetails.cs" />
+    <Compile Include="PIMaster.cs" />
+    <Compile Include="Problems.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductCategory.cs" />
+    <Compile Include="ProductColor.cs" />
+    <Compile Include="ProductMapping.cs" />
+    <Compile Include="ProductUnit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseOrderDetails.cs" />
+    <Compile Include="PurchaseOrderMaster.cs" />
+    <Compile Include="ReceiverDetails.cs" />
+    <Compile Include="ReceiverMaster.cs" />
+    <Compile Include="Region.cs" />
+    <Compile Include="RequisitionCampaigns.cs" />
+    <Compile Include="RequisitionDetails.cs" />
+    <Compile Include="RequisitionMaster.cs" />
+    <Compile Include="SalesIncentiveSetup.cs" />
+    <Compile Include="Service.cs" />
+    <Compile Include="ServiceCenter.cs" />
+    <Compile Include="SetupChannel.cs" />
+    <Compile Include="SpairParts.cs" />
+    <Compile Include="SPDeliveryDetails.cs" />
+    <Compile Include="SPDeliveryMaster.cs" />
+    <Compile Include="Supplier.cs" />
+    <Compile Include="SupplierLedger.cs" />
+    <Compile Include="UserLoginLog.cs" />
+    <Compile Include="UserRole.cs" />
+    <Compile Include="UserRoleMapping.cs" />
+    <Compile Include="Users.cs" />
+    <Compile Include="WareHouse.cs" />
+    <Compile Include="WarehouseCategory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SUL.Dal\SUL.Dal.csproj">
+      <Project>{4a16ecc9-f3e0-419d-baec-da7ee1f42b5e}</Project>
+      <Name>SUL.Dal</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

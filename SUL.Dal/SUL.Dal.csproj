@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A16ECC9-F3E0-419D-BAEC-DA7EE1F42B5E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SUL.Dal</RootNamespace>
+    <AssemblyName>SUL.Dal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfigurationDal.cs" />
+    <Compile Include="AppFunctionalityDal.cs" />
+    <Compile Include="AppModuleDal.cs" />
+    <Compile Include="AppPermissionDal.cs" />
+    <Compile Include="AreaDal.cs" />
+    <Compile Include="BankInformationDal.cs" />
+    <Compile Include="Base\AppConfigurationDalBase.cs" />
+    <Compile Include="Base\AppFunctionalityDalBase.cs" />
+    <Compile Include="Base\AppModuleDalBase.cs" />
+    <Compile Include="Base\AppPermissionDalBase.cs" />
+    <Compile Include="Base\AreaDalBase.cs" />
+    <Compile Include="Base\BankInformationDalBase.cs" />
+    <Compile Include="Base\BranchDalBase.cs" />
+    <Compile Include="Base\CalculationCampaignDalBase.cs" />
+    <Compile Include="Base\CampaignCategoryDalBase.cs" />
+    <Compile Include="Base\CampaignDetailsDalBase.cs" />
+    <Compile Include="Base\CampaignMasterDalBase.cs" />
+    <Compile Include="Base\CampaignOfferProductsDalBase.cs" />
+    <Compile Include="Base\CampaignProductsDalBase.cs" />
+    <Compile Include="Base\CompanyDalBase.cs" />
+    <Compile Include="Base\CountryDalBase.cs" />
+    <Compile Include="Base\CourierInformationDalBase.cs" />
+    <Compile Include="Base\CustomerComplainDetailsDalBase.cs" />
+    <Compile Include="Base\CustomerComplainMasterDalBase.cs" />
+    <Compile Include="Base\DataFilterSetupDalBase.cs" />
+    <Compile Include="Base\DealerCategoryDalBase.cs" />
+    <Compile Include="Base\DealerInformationDalBase.cs" />
+    <Compile Include="Base\DealerJournalDetailsDalBase.cs" />
+    <Compile Include="Base\DealerJournalMasterDalBase.cs" />
+    <Compile Include="Base\DealerLedgerDalBase.cs" />
+    <Compile Include="Base\DeliveryDetailsDalBase.cs" />
+    <Compile Include="Base\DeliveryMasterDalBase.cs" />
+    <Compile Include="Base\DepartmentDalBase.cs" />
+    <Compile Include="Base\DesignationDalBase.cs" />
+    <Compile Include="Base\EmployeeInformationDalBase.cs" />
+    <Compile Include="Base\IncentiveSetupDalBase.cs" />
+    <Compile Include="Base\IncentiveSetupDetailsDalBase.cs" />
+    <Compile Include="Base\InventorySetupDalBase.cs" />
+    <Compile Include="Base\InvoiceDetailsDalBase.cs" />
+    <Compile Include="Base\InvoiceMasterDalBase.cs" />
+    <Compile Include="Base\ItemDetailsDalBase.cs" />
+    <Compile Include="Base\ItemJournalDalBase.cs" />
+    <Compile Include="Base\ItemJournalDetailsDalBase.cs" />
+    <Compile Include="Base\ItemJournalMasterDalBase.cs" />
+    <Compile Include="Base\ItemLedgerDalBase.cs" />
+    <Compile Include="Base\ItemReturnDetailsDalBase.cs" />
+    <Compile Include="Base\ItemReturnMasterDalBase.cs" />
+    <Compile Include="Base\JournalDetailsDalBase.cs" />
+    <Compile Include="Base\JournalMasterDalBase.cs" />
+    <Compile Include="Base\LCAmendmentDalBase.cs" />
+    <Compile Include="Base\LCInformationDalBase.cs" />
+    <Compile Include="Base\ListTableDalBase.cs" />
+    <Compile Include="Base\PaymentDalBase.cs" />
+    <Compile Include="Base\PIDetailsDalBase.cs" />
+    <Compile Include="Base\PIMasterDalBase.cs" />
+    <Compile Include="Base\ProblemsDalBase.cs" />
+    <Compile Include="Base\ProductCategoryDalBase.cs" />
+    <Compile Include="Base\ProductColorDalBase.cs" />
+    <Compile Include="Base\ProductDalBase.cs" />
+    <Compile Include="Base\ProductMappingDalBase.cs" />
+    <Compile Include="Base\ProductUnitDalBase.cs" />
+    <Compile Include="Base\PurchaseOrderDetailsDalBase.cs" />
+    <Compile Include="Base\PurchaseOrderMasterDalBase.cs" />
+    <Compile Include="Base\ReceiverDetailsDalBase.cs" />
+    <Compile Include="Base\ReceiverMasterDalBase.cs" />
+    <Compile Include="Base\RegionDalBase.cs" />
+    <Compile Include="Base\RequisitionCampaignsDalBase.cs" />
+    <Compile Include="Base\RequisitionDetailsDalBase.cs" />
+    <Compile Include="Base\RequisitionMasterDalBase.cs" />
+    <Compile Include="Base\SalesIncentiveSetupDalBase.cs" />
+    <Compile Include="Base\ServiceCenterDalBase.cs" />
+    <Compile Include="Base\ServiceDalBase.cs" />
+    <Compile Include="Base\SetupChannelDalBase.cs" />
+    <Compile Include="Base\SpairPartsDalBase.cs" />
+    <Compile Include="Base\SPDeliveryDetailsDalBase.cs" />
+    <Compile Include="Base\SPDeliveryMasterDalBase.cs" />
+    <Compile Include="Base\SupplierDalBase.cs" />
+    <Compile Include="Base\SupplierLedgerDalBase.cs" />
+    <Compile Include="Base\sysdiagramsDalBase.cs" />
+    <Compile Include="Base\UserLoginLogDalBase.cs" />
+    <Compile Include="Base\UserRoleDalBase.cs" />
+    <Compile Include="Base\UserRoleMappingDalBase.cs" />
+    <Compile Include="Base\UsersDalBase.cs" />
+    <Compile Include="Base\WarehouseCategoryDalBase.cs" />
+    <Compile Include="Base\WareHouseDalBase.cs" />
+    <Compile Include="BranchDal.cs" />
+    <Compile Include="CalculationCampaignDal.cs" />
+    <Compile Include="CampaignCategoryDal.cs" />
+    <Compile Include="CampaignDetailsDal.cs" />
+    <Compile Include="CampaignMasterDal.cs" />
+    <Compile Include="CampaignOfferProductsDal.cs" />
+    <Compile Include="CampaignProductsDal.cs" />
+    <Compile Include="CompanyDal.cs" />
+    <Compile Include="CountryDal.cs" />
+    <Compile Include="CourierInformationDal.cs" />
+    <Compile Include="CustomerComplainDetailsDal.cs" />
+    <Compile Include="CustomerComplainMasterDal.cs" />
+    <Compile Include="DataFilterSetupDal.cs" />
+    <Compile Include="DealerCategoryDal.cs" />
+    <Compile Include="DealerInformationDal.cs" />
+    <Compile Include="DealerJournalDetailsDal.cs" />
+    <Compile Include="DealerJournalMasterDal.cs" />
+    <Compile Include="DealerLedgerDal.cs" />
+    <Compile Include="DeliveryDetailsDal.cs" />
+    <Compile Include="DeliveryMasterDal.cs" />
+    <Compile Include="DepartmentDal.cs" />
+    <Compile Include="DesignationDal.cs" />
+    <Compile Include="EmployeeInformationDal.cs" />
+    <Compile Include="IncentiveSetupDal.cs" />
+    <Compile Include="IncentiveSetupDetailsDal.cs" />
+    <Compile Include="InventorySetupDal.cs" />
+    <Compile Include="InvoiceDetailsDal.cs" />
+    <Compile Include="InvoiceMasterDal.cs" />
+    <Compile Include="ItemDetailsDal.cs" />
+    <Compile Include="ItemJournalDal.cs" />
+    <Compile Include="ItemJournalDetailsDal.cs" />
+    <Compile Include="ItemJournalMasterDal.cs" />
+    <Compile Include="ItemLedgerDal.cs" />
+    <Compile Include="ItemReturnDetailsDal.cs" />
+    <Compile Include="ItemReturnMasterDal.cs" />
+    <Compile Include="JournalDetailsDal.cs" />
+    <Compile Include="JournalMasterDal.cs" />
+    <Compile Include="LCAmendmentDal.cs" />
+    <Compile Include="LCInformationDal.cs" />
+    <Compile Include="ListTableDal.cs" />
+    <Compile Include="PaymentDal.cs" />
+    <Compile Include="PIDetailsDal.cs" />
+    <Compile Include="PIMasterDal.cs" />
+    <Compile Include="ProblemsDal.cs" />
+    <Compile Include="ProductCategoryDal.cs" />
+    <Compile Include="ProductColorDal.cs" />
+    <Compile Include="ProductDal.cs" />
+    <Compile Include="ProductMappingDal.cs" />
+    <Compile Include="ProductUnitDal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseOrderDetailsDal.cs" />
+    <Compile Include="PurchaseOrderMasterDal.cs" />
+    <Compile Include="ReceiverDetailsDal.cs" />
+    <Compile Include="ReceiverMasterDal.cs" />
+    <Compile Include="RegionDal.cs" />
+    <Compile Include="RequisitionCampaignsDal.cs" />
+    <Compile Include="RequisitionDetailsDal.cs" />
+    <Compile Include="RequisitionMasterDal.cs" />
+    <Compile Include="SalesIncentiveSetupDal.cs" />
+    <Compile Include="ServiceCenterDal.cs" />
+    <Compile Include="ServiceDal.cs" />
+    <Compile Include="SetupChannelDal.cs" />
+    <Compile Include="SpairPartsDal.cs" />
+    <Compile Include="SPDeliveryDetailsDal.cs" />
+    <Compile Include="SPDeliveryMasterDal.cs" />
+    <Compile Include="SqlServerConnection.cs" />
+    <Compile Include="SupplierDal.cs" />
+    <Compile Include="SupplierLedgerDal.cs" />
+    <Compile Include="UserLoginLogDal.cs" />
+    <Compile Include="UserRoleDal.cs" />
+    <Compile Include="UserRoleMappingDal.cs" />
+    <Compile Include="UsersDal.cs" />
+    <Compile Include="WarehouseCategoryDal.cs" />
+    <Compile Include="WareHouseDal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
